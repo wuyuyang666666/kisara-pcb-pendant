@@ -32,6 +32,7 @@ build/gerber1[0-3]/
 # 历史打包（只保留最终交付包）
 build/*.zip
 !build/Kisara_Pendant_6L_ENIG_v14_HOLE3.zip
+!build/Kisara_Pendant_4L_ENIG.zip
 
 # 早期文档与元数据
 build/README.md

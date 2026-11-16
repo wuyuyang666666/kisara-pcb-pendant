@@ -1,0 +1,48 @@
+# 内部工作记忆与下单流程记录
+.workbuddy/
+
+# 第三方版权素材：官方角色截图、周边商品图、基于官方形象生成的线稿
+assets/ref/
+assets/lineart_src/
+
+# 图像中间产物与调试图
+assets/*.npy
+assets/dbg_*.png
+assets/trials/
+assets/cmp_*.png
+assets/badge_*.png
+assets/shape_open*.png
+assets/medallion_v*.png
+assets/effect_*.png
+assets/lineart_trial.png
+assets/board_check.png
+assets/final_preview.png
+assets/final_medallion.png
+assets/realcolor_compare.png
+assets/Pure_black_solid_silhouette_*.png
+assets/preview_outline.png
+assets/final_v[1-9].png
+assets/final_v1[01].png
+
+# 历史 Gerber 版本（只保留最终 gerber14）
+build/gerber/
+build/gerber[0-9]/
+build/gerber1[0-3]/
+
+# 历史打包（只保留最终交付包）
+build/*.zip
+!build/Kisara_Pendant_6L_ENIG_v14_HOLE3.zip
+
+# 早期文档与元数据
+build/README.md
+build/README_medallion.md
+build/README_v[6-9].md
+build/README_v1[01].md
+build/manifest.json
+build/kisara_outline.*
+
+# Python 缓存与系统杂项
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db

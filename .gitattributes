@@ -1,0 +1,11 @@
+# Gerber 与钻孔文件必须保持交付包的原始字节，换行不被 Windows 改写
+* text=auto eol=lf
+
+*.png  binary
+*.zip  binary
+*.npy  binary
+*.dxf  text eol=lf
+*.TXT  text eol=lf
+*.G*   text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
